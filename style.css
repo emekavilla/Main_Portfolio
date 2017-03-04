@@ -1,0 +1,91 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("http://cdn.osxdaily.com/wp-content/uploads/2015/07/Mac-Animation-Studio-Office-Setup-5.jpg");
+  background-size: 1280px 800px;
+  background-repeat: no-repeat; }
+
+#para1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 140px;
+  margin-bottom: 10px;
+  font-size: 24px; }
+
+#para2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  font-size: 30px;
+  color: lightblue;
+
+ }
+
+a {
+  color: #00B7FF; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; }
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111; }
+
+/*styling for mywork.html page */
+
+  .flex-container {
+/* parent container  */
+  display:flex;
+  flex-direction:row;
+  align-items:stretch;
+  justify-content: center;
+  height:400px;
+  border:1px solid
+}
+
+.flex-item {
+/* flex child   */
+  flex:1;
+  font-size:1.2em;
+  padding:1em;
+  text-align:center;
+}
+
+.flex-item-01 {
+  background-color: lightblue;
+}
+
+.flex-item-02 {
+  flex:1;
+  background-color:lightgreen;
+}
+
+
+.slides li {
+  display: flex;
+}
+
+span {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+
+}
